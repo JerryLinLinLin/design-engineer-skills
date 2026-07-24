@@ -1,0 +1,29 @@
+{
+  "name": "design-engineer-skills",
+  "version": "0.1.0",
+  "description": "Design and motion expertise for building and reviewing polished user interfaces.",
+  "author": {
+    "name": "Emil Kowalski",
+    "url": "https://emilkowal.ski/"
+  },
+  "homepage": "https://animations.dev/",
+  "repository": "https://github.com/JerryLinLinLin/design-engineer-skills",
+  "license": "MIT",
+  "keywords": [
+    "design-engineering",
+    "ui",
+    "animation",
+    "motion",
+    "frontend"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Design Engineer Skills",
+    "shortDescription": "Build and review polished interfaces and animations.",
+    "longDescription": "Seven focused skills for UI design, motion review, animation planning, Apple-inspired interaction, animation terminology, and frontend library selection.",
+    "developerName": "Emil Kowalski",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Review this interface and suggest focused design and motion improvements."
+  }
+}

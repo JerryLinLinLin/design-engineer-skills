@@ -26,6 +26,23 @@ You can stay up to date with my skills here:
 npx skills@latest add emilkowalski/skills
 ```
 
+## Plugin compatibility
+
+The original skills remain in [`skills/`](./skills/). Both plugin manifests load that same directory, so there is only one copy of each skill to maintain.
+
+### OpenAI Codex and ChatGPT
+
+The OpenAI plugin manifest is [`./.codex-plugin/plugin.json`](./.codex-plugin/plugin.json). Add this repository to your Codex or ChatGPT plugin marketplace workflow, then install `design-engineer-skills` from that marketplace.
+
+### GitHub Copilot
+
+Register the repository as a marketplace, then install the plugin with GitHub Copilot CLI:
+
+```bash
+copilot plugin marketplace add JerryLinLinLin/design-engineer-skills
+copilot plugin install design-engineer-skills@design-engineer-skills
+```
+
 ## Why use it?
 
 Agents don’t have great taste

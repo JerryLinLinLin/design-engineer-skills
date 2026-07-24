@@ -1,0 +1,33 @@
+{
+  "name": "design-engineer-skills",
+  "owner": {
+    "name": "JerryLinLinLin"
+  },
+  "metadata": {
+    "description": "Design engineering and motion skills for polished user interfaces.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "design-engineer-skills",
+      "description": "Design and motion expertise for building and reviewing polished user interfaces.",
+      "version": "0.1.0",
+      "source": ".",
+      "author": {
+        "name": "Emil Kowalski",
+        "url": "https://emilkowal.ski/"
+      },
+      "homepage": "https://animations.dev/",
+      "repository": "https://github.com/JerryLinLinLin/design-engineer-skills",
+      "license": "MIT",
+      "keywords": [
+        "design-engineering",
+        "ui",
+        "animation",
+        "motion",
+        "frontend"
+      ],
+      "category": "design"
+    }
+  ]
+}
