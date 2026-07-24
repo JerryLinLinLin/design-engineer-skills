@@ -24,6 +24,8 @@
     "developerName": "Emil Kowalski",
     "category": "Productivity",
     "capabilities": [],
-    "defaultPrompt": "Review this interface and suggest focused design and motion improvements."
+    "defaultPrompt": [
+      "Review this interface and suggest focused design and motion improvements."
+    ]
   }
 }

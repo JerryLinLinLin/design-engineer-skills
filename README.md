@@ -32,7 +32,25 @@ The original skills remain in [`skills/`](./skills/). Both plugin manifests load
 
 ### OpenAI Codex and ChatGPT
 
-The OpenAI plugin manifest is [`./.codex-plugin/plugin.json`](./.codex-plugin/plugin.json). Add this repository to your Codex or ChatGPT plugin marketplace workflow, then install `design-engineer-skills` from that marketplace.
+The OpenAI plugin manifest is [`./.codex-plugin/plugin.json`](./.codex-plugin/plugin.json), and the Codex marketplace manifest is [`./.agents/plugins/marketplace.json`](./.agents/plugins/marketplace.json).
+
+Add the repository as a marketplace:
+
+```bash
+codex plugin marketplace add JerryLinLinLin/design-engineer-skills --ref main
+```
+
+You can also add it from the Codex app with:
+
+- Source: `JerryLinLinLin/design-engineer-skills`
+- Git ref: `main`
+- Sparse paths: leave empty
+
+Then install the plugin:
+
+```bash
+codex plugin add design-engineer-skills@design-engineer-skills
+```
 
 ### GitHub Copilot
 
